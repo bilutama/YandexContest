@@ -30,7 +30,7 @@ public class MoscowTravel {
             return 0.0;
         }
 
-        return Math.abs(a2 - a1) > Math.PI ? Math.PI - Math.abs(a2 - a1) : Math.abs(a2 - a1);
+        return Math.abs(a2 - a1) > Math.PI ? 2 * Math.PI - Math.abs(a2 - a1) : Math.abs(a2 - a1);
     }
 
     public static double getRadius(double x, double y) {
