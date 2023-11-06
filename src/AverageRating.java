@@ -20,22 +20,16 @@ public class AverageRating {
             return;
         }
 
-        int level = getFirstLevel(a);
+        int level = -a[0] * n;
+        for (int e : a) {
+            level += e;
+        }
+
         System.out.printf(level + " ");
 
         for (int i = 1; i < n; ++i) {
             level += (2 * i - n) * (a[i] - a[i - 1]);
             System.out.printf(level + " ");
         }
-    }
-
-    public static int getFirstLevel(int[] a) {
-        int sum = 0;
-
-        for (int j = 1; j < a.length; ++j) {
-            sum += a[j] - a[0];
-        }
-
-        return sum;
     }
 }
