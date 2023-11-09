@@ -27,11 +27,10 @@ public class AverageRating {
 
         PrintWriter writer = new PrintWriter(System.out);
         StringBuilder sb = new StringBuilder();
-        temp = 0;
-        for (int j = n - 1; j >= 0; --j) {
-            level[j] += temp - a[j] * (n - j - 1);
-            temp += a[j];
-            sb.insert(0, level[j] + " ");
+
+        for (int i = 0; i < n; i++) {
+            level[i] = 2 * level[i] + temp - n * a[i];
+            sb.append(level[i]).append(" ");
         }
 
         writer.println(sb);
