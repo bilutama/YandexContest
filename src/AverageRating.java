@@ -1,35 +1,40 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.StringTokenizer;
 
 public class AverageRating {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String[] strs = br.readLine().split("\\s+");
-        int n = Integer.parseInt(strs[0]);
+        String str = br.readLine();
+        StringTokenizer tokenizer = new StringTokenizer(str);
+
+        int n = Integer.parseInt(tokenizer.nextToken());
+
+        String nums = br.readLine();
+        tokenizer = new StringTokenizer(nums);
 
         int[] a = new int[n];
-        strs = br.readLine().split("\\s+");
+        int[] level = new int[n];
 
+        int temp = 0;
         for (int i = 0; i < n; i++) {
-            a[i] = Integer.parseInt(strs[i]);
+            a[i] = Integer.parseInt(tokenizer.nextToken());
+            level[i] = a[i] * i - temp;
+            temp += a[i];
         }
 
-        if (n < 2) {
-            System.out.println(0);
-            return;
+        PrintWriter writer = new PrintWriter(System.out);
+        StringBuilder sb = new StringBuilder();
+        temp = 0;
+        for (int j = n - 1; j >= 0; --j) {
+            level[j] += temp - a[j] * (n - j - 1);
+            temp += a[j];
+            sb.insert(0, level[j] + " ");
         }
 
-        int level = -a[0] * n;
-        for (int e : a) {
-            level += e;
-        }
-
-        System.out.printf(level + " ");
-
-        for (int i = 1; i < n; ++i) {
-            level += (2 * i - n) * (a[i] - a[i - 1]);
-            System.out.printf(level + " ");
-        }
+        writer.println(sb);
+        writer.close();
     }
 }
