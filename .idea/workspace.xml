@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561d871a-f0ed-457c-8ccb-f9095e44ab1e" name="Changes" comment="Elevator">
-      <change afterPath="$PROJECT_DIR$/src/BunnyLearnsGeometry.java" afterDir="false" />
+    <list default="true" id="561d871a-f0ed-457c-8ccb-f9095e44ab1e" name="Changes" comment="BunnyLearnsGeometry">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BunnyLearnsGeometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BunnyLearnsGeometry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700131606934</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="BunnyLearnsGeometry">
+      <created>1700137331677</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700137331677</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +174,7 @@
     <MESSAGE value="Anagrams" />
     <MESSAGE value="AverageRating" />
     <MESSAGE value="Elevator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Elevator" />
+    <MESSAGE value="BunnyLearnsGeometry" />
+    <option name="LAST_COMMIT_MESSAGE" value="BunnyLearnsGeometry" />
   </component>
 </project>
