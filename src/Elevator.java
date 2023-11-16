@@ -42,13 +42,10 @@ public class Elevator {
         long peopleOnCurrentFloor;
         BigInteger curTime;
 
-        System.out.println("capacity=" + capacityLeft + "; time=" + t);
-
         for (int i = n - 2; i > 0; --i) {
             capacityLeft -= a[i];
 
             if (capacityLeft >= 0) {
-                System.out.println("capacity=" + capacityLeft + "; time=0");
                 continue;
             }
 
@@ -59,7 +56,6 @@ public class Elevator {
                     (peopleOnCurrentFloor % capacity == 0 ? 0 : capacity - peopleOnCurrentFloor % capacity);
 
             curTime = BigInteger.valueOf(2 * i * ((peopleOnCurrentFloor + capacity - 1) / capacity));
-            System.out.println("capacity=" + capacityLeft + "; time=" + curTime);
             t = t.add(curTime);
         }
 
