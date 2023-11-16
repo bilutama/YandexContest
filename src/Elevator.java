@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.BigInteger;
 import java.util.StringTokenizer;
 
 public class Elevator {
@@ -9,19 +10,19 @@ public class Elevator {
 
         String str = br.readLine();
         StringTokenizer tokenizer = new StringTokenizer(str);
-        int capacity = Integer.parseInt(tokenizer.nextToken());
+        long capacity = Long.parseLong(tokenizer.nextToken());
 
         str = br.readLine();
         tokenizer = new StringTokenizer(str);
         int n = 1 + Integer.parseInt(tokenizer.nextToken());
 
-        int[] a = new int[n];
+        long[] a = new long[n];
 
-        a[0] = 0;
+        a[0] = 0L;
         for (int i = 1; i < n; i++) {
             str = br.readLine();
             tokenizer = new StringTokenizer(str);
-            a[i] = Integer.parseInt(tokenizer.nextToken());
+            a[i] = Long.parseLong(tokenizer.nextToken());
         }
 
         if (n < 2) {
@@ -29,8 +30,8 @@ public class Elevator {
         }
 
         // Algorithm
-        long t = 2L * ((a[n - 1] + capacity - 1) / capacity) * (n - 1);
-        int capacityLeft = 0;
+        BigInteger t = BigInteger.valueOf(2 * ((a[n - 1] + capacity - 1) / capacity) * (n - 1));
+        long capacityLeft = 0;
 
         if (a[n - 1] > 0) {
             capacityLeft = capacity > a[n - 1] ?
@@ -38,8 +39,8 @@ public class Elevator {
                     (a[n - 1] % capacity == 0 ? 0 : capacity - a[n - 1] % capacity);
         }
 
-        int peopleOnCurrentFloor;
-        long curTime;
+        long peopleOnCurrentFloor;
+        BigInteger curTime;
 
         System.out.println("capacity=" + capacityLeft + "; time=" + t);
 
@@ -57,9 +58,9 @@ public class Elevator {
                     capacity - peopleOnCurrentFloor :
                     (peopleOnCurrentFloor % capacity == 0 ? 0 : capacity - peopleOnCurrentFloor % capacity);
 
-            curTime = 2L * i * ((peopleOnCurrentFloor + capacity - 1) / capacity);
+            curTime = BigInteger.valueOf(2 * i * ((peopleOnCurrentFloor + capacity - 1) / capacity));
             System.out.println("capacity=" + capacityLeft + "; time=" + curTime);
-            t += curTime;
+            t = t.add(curTime);
         }
 
         System.out.println(t);
