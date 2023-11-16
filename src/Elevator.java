@@ -29,30 +29,36 @@ public class Elevator {
         }
 
         // Algorithm
-        int t = 2 * ((a[n - 1] + capacity - 1) / capacity) * (n - 1);
+        long t = 2L * ((a[n - 1] + capacity - 1) / capacity) * (n - 1);
         int capacityLeft = 0;
 
         if (a[n - 1] > 0) {
-            capacityLeft = capacity > a[n - 1] ? capacity - a[n - 1] : capacity - a[n - 1] % capacity;
+            capacityLeft = capacity > a[n - 1] ?
+                    capacity - a[n - 1] :
+                    (a[n - 1] % capacity == 0 ? 0 : capacity - a[n - 1] % capacity);
         }
 
         int peopleOnCurrentFloor;
-        int curTime;
+        long curTime;
+
+        System.out.println("capacity=" + capacityLeft + "; time=" + t);
 
         for (int i = n - 2; i > 0; --i) {
             capacityLeft -= a[i];
 
             if (capacityLeft >= 0) {
+                System.out.println("capacity=" + capacityLeft + "; time=0");
                 continue;
             }
 
             peopleOnCurrentFloor = -capacityLeft;
             // New capacityLeft value
-            capacityLeft = capacity > peopleOnCurrentFloor ?
+            capacityLeft = capacity >= peopleOnCurrentFloor ?
                     capacity - peopleOnCurrentFloor :
-                    capacity - peopleOnCurrentFloor % capacity;
+                    (peopleOnCurrentFloor % capacity == 0 ? 0 : capacity - peopleOnCurrentFloor % capacity);
 
-            curTime = 2 * ((peopleOnCurrentFloor + capacity - 1) / capacity) * i;
+            curTime = 2L * i * ((peopleOnCurrentFloor + capacity - 1) / capacity);
+            System.out.println("capacity=" + capacityLeft + "; time=" + curTime);
             t += curTime;
         }
 
