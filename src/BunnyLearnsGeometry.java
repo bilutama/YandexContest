@@ -12,17 +12,30 @@ public class BunnyLearnsGeometry {
         int rowCount = Integer.parseInt(tokenizer.nextToken());
         int columnCount = Integer.parseInt(tokenizer.nextToken());
 
-        int[][] a = new int[rowCount][columnCount];
+        int[][] counts = new int[rowCount + 1][columnCount + 1];
+        int maxSize = 0;
 
-        for (int i = 0; i < rowCount; i++) {
-            for (int j = 0; j < columnCount; j++) {
-                str = br.readLine();
-                tokenizer = new StringTokenizer(str);
-                a[i][j] = Integer.parseInt(tokenizer.nextToken());
+        for (int i = 1; i <= rowCount; i++) {
+            str = br.readLine();
+            tokenizer = new StringTokenizer(str);
+
+            for (int j = 1; j <= columnCount; j++) {
+                int e = Integer.parseInt(tokenizer.nextToken());
+
+                if (e == 1) {
+                    counts[i][j] = min(counts[i - 1][j - 1], counts[i - 1][j], counts[i][j - 1]) + 1;
+
+                    if (counts[i][j] > maxSize) {
+                        maxSize = counts[i][j];
+                    }
+                }
             }
         }
 
-        // main algorithm
+        System.out.println(maxSize);
+    }
 
+    public static int min(int a, int b, int c) {
+        return Math.min((Math.min(a, b)), c);
     }
 }

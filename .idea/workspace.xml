@@ -45,7 +45,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Elevator">
+  <component name="RunManager" selected="Application.BunnyLearnsGeometry">
     <configuration name="Anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Anagrams" />
       <module name="untitled" />
@@ -55,6 +55,13 @@
     </configuration>
     <configuration name="AverageRating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AverageRating" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BunnyLearnsGeometry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BunnyLearnsGeometry" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,20 +81,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfFractions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumOfFractions" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BunnyLearnsGeometry" />
         <item itemvalue="Application.Elevator" />
         <item itemvalue="Application.AverageRating" />
         <item itemvalue="Application.Anagrams" />
         <item itemvalue="Application.MoscowTravel" />
-        <item itemvalue="Application.SumOfFractions" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700137331677</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="BunnyLearnsGeometry">
+      <created>1700151007394</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700151007394</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
