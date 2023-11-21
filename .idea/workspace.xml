@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561d871a-f0ed-457c-8ccb-f9095e44ab1e" name="Changes" comment="BunnyLearnsGeometry">
-      <change afterPath="$PROJECT_DIR$/src/ContestResults.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="561d871a-f0ed-457c-8ccb-f9095e44ab1e" name="Changes" comment="update structure">
+      <change afterPath="$PROJECT_DIR$/src/Lecture01/Partition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,37 +44,37 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ContestResults">
-    <configuration name="Anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Anagrams" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AverageRating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AverageRating" />
+  <component name="RunManager" selected="Application.Students">
+    <configuration name="BracketSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Warmup.BracketSequence" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="BunnyLearnsGeometry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BunnyLearnsGeometry" />
+      <option name="MAIN_CLASS_NAME" value="Warmup.BunnyLearnsGeometry" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ContestResults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContestResults" />
+      <option name="MAIN_CLASS_NAME" value="Warmup.ContestResults" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Elevator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Elevator" />
+      <option name="MAIN_CLASS_NAME" value="Warmup.Elevator" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Students" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Warmup.Students" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Students" />
+        <item itemvalue="Application.BracketSequence" />
         <item itemvalue="Application.ContestResults" />
         <item itemvalue="Application.BunnyLearnsGeometry" />
         <item itemvalue="Application.Elevator" />
-        <item itemvalue="Application.AverageRating" />
-        <item itemvalue="Application.Anagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +169,42 @@
       <option name="project" value="LOCAL" />
       <updated>1700471803133</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ContestResults">
+      <created>1700484717957</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700484717957</updated>
+    </task>
+    <task id="LOCAL-00012" summary="BracketSequence">
+      <created>1700570035061</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700570035061</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Students">
+      <created>1700577693044</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700577693044</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update structure">
+      <created>1700577717140</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700577717140</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update structure">
+      <created>1700578749984</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1700578749984</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +223,10 @@
     <MESSAGE value="AverageRating" />
     <MESSAGE value="Elevator" />
     <MESSAGE value="BunnyLearnsGeometry" />
-    <option name="LAST_COMMIT_MESSAGE" value="BunnyLearnsGeometry" />
+    <MESSAGE value="ContestResults" />
+    <MESSAGE value="BracketSequence" />
+    <MESSAGE value="Students" />
+    <MESSAGE value="update structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="update structure" />
   </component>
 </project>
