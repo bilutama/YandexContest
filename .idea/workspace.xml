@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561d871a-f0ed-457c-8ccb-f9095e44ab1e" name="Changes" comment="BunnyLearnsGeometry">
-      <change afterPath="$PROJECT_DIR$/src/ContestResults.java" afterDir="false" />
+    <list default="true" id="561d871a-f0ed-457c-8ccb-f9095e44ab1e" name="Changes" comment="ContestResults">
+      <change afterPath="$PROJECT_DIR$/src/BracketSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,16 +45,16 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ContestResults">
-    <configuration name="Anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Anagrams" />
+  <component name="RunManager" selected="Application.BracketSequence">
+    <configuration name="AverageRating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AverageRating" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AverageRating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AverageRating" />
+    <configuration name="BracketSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BracketSequence" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BracketSequence" />
         <item itemvalue="Application.ContestResults" />
         <item itemvalue="Application.BunnyLearnsGeometry" />
         <item itemvalue="Application.Elevator" />
         <item itemvalue="Application.AverageRating" />
-        <item itemvalue="Application.Anagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700471803133</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ContestResults">
+      <created>1700484717957</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700484717957</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +196,7 @@
     <MESSAGE value="AverageRating" />
     <MESSAGE value="Elevator" />
     <MESSAGE value="BunnyLearnsGeometry" />
-    <option name="LAST_COMMIT_MESSAGE" value="BunnyLearnsGeometry" />
+    <MESSAGE value="ContestResults" />
+    <option name="LAST_COMMIT_MESSAGE" value="ContestResults" />
   </component>
 </project>
