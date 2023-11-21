@@ -1,4 +1,4 @@
-package Wormup;
+package Warmup;
 
 import java.io.IOException;
 import java.util.HashMap;

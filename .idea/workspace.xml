@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561d871a-f0ed-457c-8ccb-f9095e44ab1e" name="Changes" comment="BracketSequence">
-      <change afterPath="$PROJECT_DIR$/src/Wormup/Students.java" afterDir="false" />
+    <list default="true" id="561d871a-f0ed-457c-8ccb-f9095e44ab1e" name="Changes" comment="update structure">
+      <change afterPath="$PROJECT_DIR$/src/read.me" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Anagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wormup/Anagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AverageRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wormup/AverageRating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BracketSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wormup/BracketSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BunnyLearnsGeometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wormup/BunnyLearnsGeometry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContestResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wormup/ContestResults.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wormup/Elevator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MoscowTravel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wormup/MoscowTravel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotMinimumOnSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wormup/NotMinimumOnSegment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumOfFractions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wormup/SumOfFractions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,35 +47,35 @@
 }</component>
   <component name="RunManager" selected="Application.Students">
     <configuration name="BracketSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Wormup.BracketSequence" />
+      <option name="MAIN_CLASS_NAME" value="Warmup.BracketSequence" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="BunnyLearnsGeometry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Wormup.BunnyLearnsGeometry" />
+      <option name="MAIN_CLASS_NAME" value="Warmup.BunnyLearnsGeometry" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ContestResults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Wormup.ContestResults" />
+      <option name="MAIN_CLASS_NAME" value="Warmup.ContestResults" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Elevator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Wormup.Elevator" />
+      <option name="MAIN_CLASS_NAME" value="Warmup.Elevator" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Students" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Wormup.Students" />
+      <option name="MAIN_CLASS_NAME" value="Warmup.Students" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -193,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700570035061</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Students">
+      <created>1700577693044</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700577693044</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update structure">
+      <created>1700577717140</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700577717140</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +219,8 @@
     <MESSAGE value="BunnyLearnsGeometry" />
     <MESSAGE value="ContestResults" />
     <MESSAGE value="BracketSequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="BracketSequence" />
+    <MESSAGE value="Students" />
+    <MESSAGE value="update structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="update structure" />
   </component>
 </project>
