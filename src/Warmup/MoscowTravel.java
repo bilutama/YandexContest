@@ -17,8 +17,6 @@ public class MoscowTravel {
         double r2 = getRadius(x2, y2);
         double a = getAngle(x1, y1, x2, y2);
 
-        System.out.println("angle=" + a);
-
         double path = a > 2 ? (r1 + r2) : (a * Math.min(r1, r2) + Math.abs(r1 - r2));
 
         System.out.println(path);
