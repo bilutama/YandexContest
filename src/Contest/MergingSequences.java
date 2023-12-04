@@ -27,11 +27,11 @@ public class MergingSequences {
 
         long m = 1;
 
-        for (long j = 1L; j <= n + 1; j = j + 1) {
+        for (long j = 1L; j <= n + 1; ++j) {
             b = j * j * j;
 
-            for (long i = m; i <= n + 1; i = i + 1) {
-                m += 1;
+            for (long i = m; i <= n + 1; ++i) {
+                ++m;
 
                 a = i * i;
 
@@ -40,7 +40,7 @@ public class MergingSequences {
                 }
 
                 if (a < b) {
-                    index = index + 1;
+                    ++index;
                     if (index == n) {
                         return a;
                     }
@@ -48,12 +48,12 @@ public class MergingSequences {
                     continue;
                 }
 
-                index = index + 1;
+                ++index;
                 if (index == n) {
                     return b;
                 }
 
-                index = index + 1;
+                ++index;
                 if (index == n) {
                     return a;
                 }
